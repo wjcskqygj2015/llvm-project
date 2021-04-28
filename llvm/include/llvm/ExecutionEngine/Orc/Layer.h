@@ -96,7 +96,7 @@ public:
   /// Returns the current value of the CloneToNewContextOnEmit flag.
   bool getCloneToNewContextOnEmit() const { return CloneToNewContextOnEmit; }
 
-  /// Add a MaterializatinoUnit representing the given IR to the JITDylib
+  /// Add a MaterializationUnit representing the given IR to the JITDylib
   /// targeted by the given tracker.
   virtual Error add(ResourceTrackerSP RT, ThreadSafeModule TSM);
 
